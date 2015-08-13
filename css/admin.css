@@ -1,0 +1,37 @@
+#story_edit {
+width: 600px;
+height: auto!Important;
+min-height: 600px;
+height: 600px;
+border: 1px solid green;
+margin: 10px auto 10px auto;
+padding: 10px;
+}
+#story_edit_title, #story_edit_url {
+width: 550px;
+height: 30px;
+margin: 0 auto 10px auto;
+padding: 0;
+}
+#story_edit_content {
+width: 550px;
+height: 500px;
+margin: 0 auto 10px auto;
+padding: 0;
+}
+#story_edit_button {
+width: 550px;
+margin: 0 auto 10px auto;
+}
+input {
+width:550px;
+display:block;
+height: 30px;
+font-size: 20px;
+}
+textarea {
+width: 550px;
+height: 500px;
+resize: none;
+font-size: 20px;
+}

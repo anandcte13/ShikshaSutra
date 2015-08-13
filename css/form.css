@@ -1,0 +1,100 @@
+#register {
+	max-width: 500px;
+    padding: 10px 20px;
+    background: #f4f7f8;
+    margin: 10px auto;
+    padding: 20px;
+    background: #f4f7f8;
+    border-radius: 8px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+}
+#register fieldset{
+    border: none;
+}
+#register legend{
+    font-size: 1.4em;
+    margin-bottom: 10px;
+}
+#register label{
+    display: block;
+    margin-bottom: 8px;
+}
+#register input[type="text"], #register input[type="password"]{
+    font-family: Georgia, "Times New Roman", Times, serif;
+    background: rgba(255,255,255,.1);
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    margin: 0;
+    outline: 0;
+    padding: 7px;
+    width: 100%;
+    box-sizing: border-box; 
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box; 
+    background-color: #e8eeef;
+    color:#8a97a0;
+    -webkit-box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+    box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+    margin-bottom: 30px;
+    
+}
+#register input[type="text"]:focus, #register input[type="password"]:focus{
+    background: #d2d9dd;
+}
+#register select{
+    -webkit-appearance: menulist-button;
+    height:35px;
+}
+#register input[type="submit"],
+#register input[type="button"]
+{
+    position: relative;
+    display: block;
+    padding: 19px 39px 18px 39px;
+    color: #FFF;
+    margin: 0 auto;
+    background: #1abc9c;
+    font-size: 18px;
+    text-align: center;
+    font-style: normal;
+    width: 100%;
+    border: 1px solid #16a085;
+    border-width: 1px 1px 3px;
+    margin-bottom: 10px;
+}
+#register input[type="submit"]:hover,
+#register input[type="button"]:hover
+{
+    background: #109177;
+}
+#post_edit{
+width: 550px;
+height: 200px;
+margin: 0 auto 0 auto;
+padding: 0;
+border: 1px solid gray;
+}
+#address {
+width: 550px;
+height: 600px;
+margin: 0 auto 0 auto;
+padding: 0;
+border: 1px solid gray;
+}
+#post_edit textarea, #address textarea {
+width: 500px;
+height: 150px;
+margin: 5px 25px 5px 25px;
+padding: 0;
+resize: none;
+font-size: 20px;
+}
+#post_edit input, #address input {
+width:500px;
+display:block;
+height: 30px;
+margin: 5px 25px 5px 25px;
+padding: 0;
+font-size: 20px;
+}
